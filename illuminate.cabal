@@ -46,7 +46,7 @@ Flag executable
 Library
   Build-Depends:     base >= 3 && < 5, containers, xhtml, html, utf8-string,
                      hscolour, filemanip, filepath
-  Build-Tools:       alex >= 2 && < 3
+  Build-Tools:       alex
   Exposed-Modules:   Text.Highlighting.Illuminate
                      Text.Highlighting.Illuminate.Types
                      Text.Highlighting.Illuminate.Format
@@ -102,7 +102,7 @@ Executable illuminate
                      Text.Highlighting.Illuminate.Sh
                      Text.Highlighting.Illuminate.TeX
                      Text.Highlighting.Illuminate.XML
-  Build-Tools:       alex >= 2 && < 3
+  Build-Tools:       alex
   Ghc-Options:       -Wall -funbox-strict-fields
   Ghc-Prof-Options:  -auto-all -caf-all -O0
   if flag(executable)
